@@ -29,6 +29,8 @@ first is linear. touching every single element.
 At least `O log(n)`
 
 
+<<<<<<< HEAD
 6. What is the space complexity of the heapsort function? Recall that your implementation should return a new array with the sorted data. What would be the space complexity if your function instead altered the input array?
 
 * I think it's O(n) but I'm not sure on anything at this point.
+
