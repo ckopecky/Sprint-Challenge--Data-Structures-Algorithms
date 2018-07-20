@@ -1,12 +1,16 @@
 def heapsort(list):
+  #initialize Heap
   heap = Heap()
   list_sorted = []
 
   for item in list:
     heap.insert(item)
   while heap.size > 0:
-    list_sorted.insert(0, heap.delete())
-  return sorted_list
+    list_sorted.append(heap.delete())
+    #list_sorted.insert(0, heap.delete()) -- if you do this you don't need to reverse
+    #however it adds another O(n)
+  list_sorted.reverse()
+  return list_sorted
 
 
 class Heap:
