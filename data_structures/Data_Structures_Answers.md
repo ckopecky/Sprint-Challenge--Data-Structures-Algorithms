@@ -17,6 +17,8 @@ What is the space complexity of your breadth_first_for_each method?
 
 What is the runtime complexity of your heapsort function?
 
+I think it's O log n ....but again I don't know why....I'm not to sure of anything....
+
 What is the space complexity of the heapsort function? Recall that your implementation should return a new array with the sorted data. What would be the space complexity if your function instead altered the input array?
 
 I think it's O(n) but I'm not sure on anything at this point.
